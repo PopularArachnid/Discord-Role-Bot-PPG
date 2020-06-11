@@ -1,0 +1,21 @@
+{
+  "name": "test-bot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.x"
+  },
+  "description": "TestBot",
+  "main": "app.js",
+  "author": "Sam Hovland",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
